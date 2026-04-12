@@ -1,56 +1,53 @@
-# Prerequisites
-*.d
+*.DS_Store
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+node_modules
+public/components
+public/vendor
+public/404.html
+public/50x.html
+public/maintenance.html
 
-# Linker output
-*.ilk
-*.map
-*.exp
+*.sublime-project
+*.sublime-workspace
 
-# Precompiled Headers
-*.gch
-*.pch
+Vagrantfile
+.vagrant
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+config/runtime.json
+config/runtime.json.tmp-*
+config/development.yaml
+config/development.yml
+config/development.json
+config/production.yaml
+config/production.yml
+config/production.json
+config/local.yaml
+config/local.yml
+config/local.json
+config/migration.json
+config/migrationDb.json
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+npm-debug.log
+build.log
+test-*.js
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-*.gz
+.sass-cache
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+public/css/base.css
+public/css/base.css.map
+public/css/embed.css
+public/css/embed.css.map
+public/css/publish
+public/js/dist
+lib/views/courses/download/course.css
+lib/views/courses/download/course.css.map
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+lib/migrations/backups
 
-# debug information files
-*.dwo
+public/_published
+
+*.pyc
+
+*.swp
+
+.agignore
